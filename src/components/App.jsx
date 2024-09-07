@@ -1,49 +1,4 @@
 
-// //kHVD
-
-// import React from "react";
-// import Header from "./Header";
-// import Note from "./Note";
-// import Footer from "./Footer";
-// // import notes from "../data";
-// import CreatArea from "./CreateArea";
-
-// function App() {
-
-//   const [newitem, setnewitem] = React.useState([]);
-//   function addNewItem(item){
-//     setnewitem((pre) =>{
-//       return(
-//         [...pre, item]
-//       )
-//     })
-//   }
-
-//   function handleDelete(id){
-//     setnewitem((pre) =>{
-//       return pre.filter((item, index) =>{
-//         return index !==id;
-//       });
-//     })
-//   }
-
-//   return (
-//     <div className="App">
-//     <Header />
-//     <CreatArea addItem={addNewItem} />
-//     {newitem.map((x, index) => <Note
-//      title={x.Title} 
-//      content={x.content}
-//       key={index}
-//       id={index}
-//       onChnage={handleDelete}
-//      />)}
-//     <Footer />
-//     </div>
-//   );
-// }
-
-// export default App;
 
 
 
